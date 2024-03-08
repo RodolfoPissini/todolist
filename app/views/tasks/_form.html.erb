@@ -1,0 +1,14 @@
+<%= form_with model: @task, data: { turbo: true } do |form| %>
+  <%= form.label :tarefa %><br>
+  <div class="input-content">
+    <%= form.text_field :title %>
+    <% @task&.errors&.full_messages_for(:title)&.each do |message| %>
+      <div>
+        <%= message %>
+      </div>
+    <% end %>
+  <div>
+    <%= form.submit "Criar tarefa", class: "submit-button", data: { turbo: "false" } %>
+  </div>
+  </div>
+<% end %>

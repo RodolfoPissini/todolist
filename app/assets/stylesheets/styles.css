@@ -1,0 +1,109 @@
+.container{
+  min-height: 100vh;
+  width: 100%;
+  background-color: #49447F;
+  display: flex;
+  justify-content: center;
+  overflow-X: hidden;
+}
+
+.content h1{
+  color: #D4D0FF;
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 4rem;
+}
+
+.tasks-container input{
+  margin-right: 1rem;
+}
+
+.text-container{
+  max-width: 450px;
+  overflow: hidden;
+  display: flex;
+}
+
+.tasks-container li{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #756DCC;
+  margin-bottom: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.tasks-container a{
+  text-decoration: none;
+  font-size: 22px;
+  color: #D4D0FF;
+}
+
+.tasks-container button {
+  background-color: #D4D0FF;
+  width: 100px;
+  height: 2.5rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.tasks-container button a{
+  color: #261E7F;
+}
+
+.edit-container{
+  min-height: 100vh;
+  width: 100%;
+  background-color: #49447F;
+  display: flex;
+  justify-content: center;
+  overflow-X: hidden;
+  padding: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+form label{
+  font-size: 32px;
+  color: #D4D0FF;
+}
+
+.input-content {
+    margin-top: 0.1rem; 
+    display: flex;
+}
+
+.input-content input{
+  width: 450px;
+  height: 2.5rem;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+  font-size: 18px;
+}
+
+.submit-button {
+  width: 200px !important;
+  height: 2.5rem;
+  background-color: #D4D0FF;
+  color: #261E7F;
+  font-size: 22px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  margin-left: 20px;
+}
+
+.submit-button:hover {
+  background-color: #261E7F;
+  color: #D4D0FF;
+}
